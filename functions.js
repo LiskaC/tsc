@@ -4,5 +4,8 @@ const testingAsync = async () => {
 const pow = (x, y) => {
     return Math.pow(x, y);
 };
-pow(373, 4);
-console.log(pow(373, 4));
+console.log("power as a number: ", pow(373, 4));
+const powInString = (x, y) => {
+    return Math.pow(x, y).toString();
+};
+console.log("power as a string: ", powInString(373, 4));

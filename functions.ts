@@ -6,6 +6,11 @@ const pow = (x: number, y:number) => {
     return Math.pow(x, y);
 }
 
-pow(373, 4)
+console.log("power as a number: ", pow(373, 4))
 
-console.log(pow(373, 4))
+
+const powInString = (x: number, y: number): string => {
+   return Math.pow(x, y).toString();
+}
+
+console.log("power as a string: ",powInString(373, 4))
